@@ -1,0 +1,435 @@
+{% load static %}
+<section class="mh-portfolio" id="mh-portfolio">
+    <div class="container">
+        <div class="row section-separator">
+            <div class="section-title col-sm-12 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+                <h3>Recent Portfolio</h3>
+            </div>
+            <div class="part col-sm-12">
+                <div class="portfolio-nav col-sm-12" id="filter-button">
+                    <ul>
+                        <li data-filter="*" class="current wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s"> <span>All Categories</span></li>
+                        <li data-filter=".user-interface" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s"><span>Certificate</span></li>
+                        <li data-filter=".branding" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"><span>Web Projects</span></li>
+                        <li data-filter=".mockup" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"><span>Row Projects</span></li>
+{#                        <li data-filter=".ui" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s"><span>Photography</span></li>#}
+                    </ul>
+                </div>
+                <div class="mh-project-gallery col-sm-12 wow fadeInUp" id="project-gallery" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                    <div class="portfolioContainer row">
+                        <!--
+                        ===================
+                           CERTIFICATE
+                        ===================
+                        -->
+                        <div class="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                            <figure>
+                                <img src="{% static 'assets/images/portfolio/djago.PNG' %}">
+                                <figcaption class="fig-caption">
+                                   <i class="fa fa-hand-pointer-o"></i>
+                                    <h5 class="title">Programming for Everybody(Getting Start with Python)</h5>
+                                    <span class="sub-title">Click here</span>
+                                    <a href="{% static 'assets/images/portfolio/Django.Png' %}" data-fancybox data-src="#dj"></a>
+
+                                    <a data-fancybox data-src="#py"></a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                            <figure>
+                                <img src="{% static 'assets/images/portfolio/emp.png' %}">
+                                <figcaption class="fig-caption">
+                                    <i class="fa fa-hand-pointer-o"></i>
+                                    <h5 class="title">Career Planning From News Media:Advanced Techniques </h5>
+                                    <span class="sub-title">Click here</span>
+                                    <a href="{% static 'assets/images/portfolio/emp.png' %}" data-fancybox data-src="#dj"></a>
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                        <!--
+                        ===================
+                           WEB PROJECTS
+                        ===================
+                        -->
+                        <div class="grid-item col-md-4 col-sm-6 col-xs-12 branding">
+                            <figure>
+                                <img src="{% static 'assets/images/portfolio/h.jpg' %}">
+                                <figcaption class="fig-caption">
+                                    <i class="fa fa-hand-pointer-o"></i>
+                                    <h5 class="title"> Online Medicine Shope</h5>
+                                    <span class="sub-title">Click here</span>
+                                    <a href="{% static 'assets/images/portfolio/p.jpg' %}" data-fancybox data-src="#pta"></a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="grid-item col-md-4 col-sm-6 col-xs-12 branding">
+                            <figure>
+                                <img src="{% static 'assets/images/portfolio/d.jpg' %}">
+                                <figcaption class="fig-caption">
+                                    <i class="fa fa-hand-pointer-o"></i>
+                                    <h5 class="title">Online Real estate</h5>
+                                    <span class="sub-title">Click here</span>
+                                    <a href="{% static 'assets/images/portfolio/d.jpg' %}" data-fancybox data-src="#rs"></a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <!-- <div class="grid-item col-md-4 col-sm-6 col-xs-12 branding">
+                            <figure>
+                                <img src="{% static 'assets/images/portfolio/d.jpg' %}">
+                                <figcaption class="fig-caption">
+                                    <i class="fa fa-hand-pointer-o"></i>
+                                    <h5 class="title">Online Job Portal</h5>
+                                    <span class="sub-title">Click here</span>
+                                    <a href="{% static 'assets/images/portfolio/jp.jpg' %}" data-fancybox data-src="#jp"></a>
+                                </figcaption>
+                            </figure>
+                        </div> -->
+                        <!-- <div class="grid-item col-md-4 col-sm-6 col-xs-12 branding">
+                            <figure>
+                                <img src="{% static 'assets/images/portfolio/me.jpg' %}">
+                                <figcaption class="fig-caption">
+                                    <i class="fa fa-hand-pointer-o"></i>
+                                    <h5 class="title">Making Events</h5>
+                                    <span class="sub-title">Click here</span>
+                                    <a href="{% static 'assets/images/portfolio/me.jpg' %}" data-fancybox data-src="#me"></a>
+                                </figcaption>
+                            </figure>
+                        </div> -->
+                        <div class="grid-item col-md-4 col-sm-6 col-xs-12 branding">
+                            <figure>
+                                <img src="{% static 'assets/images/portfolio/port.jpg' %}">
+                                <figcaption class="fig-caption">
+                                    <i class="fa fa-hand-pointer-o"></i>
+                                    <h5 class="title">Personal Portfolio</h5>
+                                    <span class="sub-title">Click here</span>
+                                    <a href="{% static 'assets/images/portfolio/port.jpg' %}" data-fancybox data-src="#pp"></a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="grid-item col-md-4 col-sm-6 col-xs-12 branding">
+                            <figure>
+                                <img src="{% static 'assets/images/portfolio/we.jpg' %}">
+                                <figcaption class="fig-caption">
+                                    <i class="fa fa-hand-pointer-o"></i>
+                                    <h5 class="title">We Can</h5>
+                                    <span class="sub-title">Click here</span>
+                                    <a href="{% static 'assets/images/portfolio/we.jpg' %}" data-fancybox data-src="#es"></a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <!--
+                        ===================
+                           ROW PROJECTS
+                        ===================
+                        -->
+                        <div class="grid-item col-md-4 col-sm-6 col-xs-12 ui mockup">
+                            <figure>
+                                <img src="{% static 'assets/images/portfolio/b.jpg' %}">
+                                <figcaption class="fig-caption">
+                                    <i class="fa fa-hand-pointer-o"></i>
+                                    <h5 class="title">Bus Ticket System</h5>
+                                    <span class="sub-title">Click here</span>
+                                    <a href="{% static 'assets/images/portfolio/b.jpg' %}" data-fancybox data-src="#bm"></a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <!-- <div class="grid-item col-md-4 col-sm-6 col-xs-12 ui mockup">
+                            <figure>
+                                <img src="{% static 'assets/images/portfolio/ots.jpg' %}">
+                                <figcaption class="fig-caption">
+                                    <i class="fa fa-hand-pointer-o"></i>
+                                    <h5 class="title">Online Toll System</h5>
+                                    <span class="sub-title">Click here</span>
+                                    <a href="{% static 'assets/images/portfolio/ots.jpg' %}" data-fancybox data-src="#ots"></a>
+                                </figcaption>
+                            </figure>
+                        </div> -->
+                        <!-- <div class="grid-item col-md-4 col-sm-6 col-xs-12 ui mockup">
+                            <figure>
+                                <img src="{% static 'assets/images/portfolio/php.jpg' %}">
+                                <figcaption class="fig-caption">
+                                    <i class="fa fa-hand-pointer-o"></i>
+                                    <h5 class="title">Row php Projects</h5>
+                                    <span class="sub-title">Click here</span>
+                                    <a href="{% static 'assets/images/portfolio/php.jpg' %}" data-fancybox data-src="#php"></a>
+                                </figcaption>
+                            </figure>
+                        </div> -->
+                    </div> <!-- End: .grid .project-gallery -->
+                </div> <!-- End: .grid .project-gallery -->
+            </div> <!-- End: .part -->
+        </div> <!-- End: .row -->
+    </div>
+    <!-- <div class="mh-portfolio-modal" id="dj">
+        <div class="container">
+            <div class="row mh-portfolio-modal-inner">
+                <div class="col-lg-12">
+                    <div class="dj-portfolio-modal-img">
+                        <img src="{% static 'assets/images/portfolio/django.png' %}" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mh-portfolio-modal" id="py">
+        <div class="container">
+            <div class="row mh-portfolio-modal-inner">
+                <div class="col-lg-12">
+                    <div class="py-portfolio-modal-img">
+                        <img src="{% static 'assets/images/portfolio/python.png' %}" alt="" class="img-fluid">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="mh-portfolio-modal" id="la">
+        <div class="container">
+            <div class="row mh-portfolio-modal-inner">
+                <div class="col-lg-12">
+                    <div class="py-portfolio-modal-img">
+                        <img src="{% static 'assets/images/portfolio/laravel.png' %}" alt="" class="img-fluid">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div> -->
+    <div class="mh-portfolio-modal" id="pta">
+        <div class="container">
+            <div class="row mh-portfolio-modal-inner">
+                <div class="col-sm-6">
+                    <h2>Project Name: Online Medicine Shope</h2>
+                    <p>MIni Project.</p>
+                    <div class="mh-about-tag">
+                        <ul>
+                            <li><span>django</span></li>
+                            <li><span>python</span></li>
+                            <li><span>html</span></li>
+                            <li><span>css</span></li>
+                            <li><span>scss</span></li>
+                            <li><span>javascript</span></li>
+                            <li><span>jquery</span></li>
+                            <li><span>bootstrap</span></li>
+                        </ul>
+                    </div>
+                    <a href="https://github.com/ardipta/Project-Thesis-Archive" target="_blank" class="btn btn-fill">Github</a>
+                </div>
+                <div class="col-sm-6">
+                    <div class="pta-portfolio-modal-img">
+                        <img src="{% static 'assets/images/portfolio/p.jpg' %}" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mh-portfolio-modal" id="rs">
+        <div class="container">
+            <div class="row mh-portfolio-modal-inner">
+                <div class="col-sm-6">
+                    <h2>Project Name: Online Real Estate</h2>
+                    <p>Technology I use to devlop this project,</p>
+                    <div class="mh-about-tag">
+                        <ul>
+                            <li><span>django</span></li>
+                            <li><span>python</span></li>
+                            <li><span>html</span></li>
+                            <li><span>css</span></li>
+                            <li><span>javascript</span></li>
+                            <li><span>jquery</span></li>
+                            <li><span>bootstrap</span></li>
+                        </ul>
+                    </div>
+                    <a href="https://github.com/vokti77/Real-Estate-System" target="_blank" class="btn btn-fill">Github</a>
+                </div>
+                <div class="col-sm-6">
+                    <div class="rs-portfolio-modal-img">
+                        <img src="{% static 'assets/images/portfolio/d.jpg' %}" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="mh-portfolio-modal" id="jp">
+        <div class="container">
+            <div class="row mh-portfolio-modal-inner">
+                <div class="col-sm-6">
+                    <h2>Project Name: Online Job Portal</h2>
+                    <p>Wrap is a clean and elegant Multipurpose Landing Page Template.
+                    It will fit perfectly for Startup, Web App or any type of Web Services.
+                    It has 4 background styles with 6 homepage styles. 6 pre-defined color scheme.
+                    All variations are organized separately so you can use / customize the template very easily.</p>
+
+                    <p>It is a clean and elegant Multipurpose Landing Page Template.
+                    It will fit perfectly for Startup, Web App or any type of Web Services.
+                    It has 4 background styles with 6 homepage styles. 6 pre-defined color scheme.
+                    All variations are organized separately so you can use / customize the template very easily.</p>
+                    <div class="mh-about-tag">
+                        <ul>
+                            <li><span>laravel</span></li>
+                            <li><span>php</span></li>
+                            <li><span>html</span></li>
+                            <li><span>css</span></li>
+                            <li><span>scss</span></li>
+                            <li><span>javascript</span></li>
+                            <li><span>jquery</span></li>
+                            <li><span>bootstrap</span></li>
+                        </ul>
+                    </div>
+                    <a href="https://github.com/ardipta/Job-Portal-Laravel" target="_blank" class="btn btn-fill">Github</a>
+                </div>
+                <div class="col-sm-6">
+                    <div class="jp-portfolio-modal-img">
+                        <img src="{% static 'assets/images/portfolio/jp.jpg' %}" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mh-portfolio-modal" id="me">
+        <div class="container">
+            <div class="row mh-portfolio-modal-inner">
+                <div class="col-sm-6">
+                    <h2>Project Name: Making Events</h2>
+                    <p>Wrap is a clean and elegant Multipurpose Landing Page Template.
+                    It will fit perfectly for Startup, Web App or any type of Web Services.
+                    It has 4 background styles with 6 homepage styles. 6 pre-defined color scheme.
+                    All variations are organized separately so you can use / customize the template very easily.</p>
+
+                    <p>It is a clean and elegant Multipurpose Landing Page Template.
+                    It will fit perfectly for Startup, Web App or any type of Web Services.
+                    It has 4 background styles with 6 homepage styles. 6 pre-defined color scheme.
+                    All variations are organized separately so you can use / customize the template very easily.</p>
+                    <div class="mh-about-tag">
+                        <ul>
+                            <li><span>laravel</span></li>
+                            <li><span>php</span></li>
+                            <li><span>html</span></li>
+                            <li><span>css</span></li>
+                            <li><span>scss</span></li>
+                            <li><span>javascript</span></li>
+                            <li><span>jquery</span></li>
+                            <li><span>bootstrap</span></li>
+                        </ul>
+                    </div>
+                    <a href="https://github.com/ardipta/Making-Events-Project" target="_blank" class="btn btn-fill">Github</a>
+                </div> -->
+                <div class="col-sm-6">
+                    <div class="me-portfolio-modal-img">
+                        <img src="{% static 'assets/images/portfolio/.jpg' %}" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mh-portfolio-modal" id="pp">
+        <div class="container">
+            <div class="row mh-portfolio-modal-inner">
+                <div class="col-sm-6">
+                    <h2>Project Name: Personal Portfolio</h2>
+                    <p>Technolgy, I use this project</p>
+                    <div class="mh-about-tag">
+                        <ul>
+                            <li><span>django</span></li>
+                            <li><span>python</span></li>
+                            <li><span>html</span></li>
+                            <li><span>css</span></li>
+                            <li><span>scss</span></li>
+                            <li><span>javascript</span></li>
+                            <li><span>jquery</span></li>
+                            <li><span>bootstrap</span></li>
+                        </ul>
+                    </div>
+                    <a href="https://github.com" target="_blank" class="btn btn-fill">Github</a>
+                </div>
+                <div class="col-sm-6">
+                    <div class="pp-portfolio-modal-img">
+                        <img src="{% static 'assets/images/portfolio/port.jpg' %}" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mh-portfolio-modal" id="es">
+        <div class="container">
+            <div class="row mh-portfolio-modal-inner">
+                <div class="col-sm-6">
+                    <h2>Project Name:We Can </h2>
+                    <p>Technolgy, I use this project</p>
+                    <div class="mh-about-tag">
+                        <ul>
+                            <li><span>django</span></li>
+                            <li><span>python</span></li>
+                            <li><span>html</span></li>
+                            <li><span>css</span></li>
+                            <li><span>scss</span></li>
+                            <li><span>javascript</span></li>
+                            <li><span>jquery</span></li>
+                            <li><span>bootstrap</span></li>
+                        </ul>
+                    </div>
+                    <a href="https://github.com/" target="_blank" class="btn btn-fill">Github</a>
+                </div>
+                <div class="col-sm-6">
+                    <div class="es-portfolio-modal-img">
+                        <img src="{% static 'assets/images/portfolio/we.jpg' %}" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mh-portfolio-modal" id="bm">
+        <div class="container">
+            <div class="row mh-portfolio-modal-inner">
+                <div class="col-sm-6">
+                    <h2>Project Name: Bus Ticket System</h2>
+                    <p>Technology I use to devlop this project,</p>
+                    <div class="mh-about-tag">
+                        <ul>
+                            <li><span>C Programming</span></li>
+                        </ul>
+                    </div>
+                    <a href="https://github.com" target="_blank" class="btn btn-fill">Github</a>
+                </div>
+                <div class="col-sm-6">
+                    <div class="bm-portfolio-modal-img">
+                        <img src="{% static 'assets/images/portfolio/b.jpg' %}" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mh-portfolio-modal" id="php">
+        <div class="container">
+            <div class="row mh-portfolio-modal-inner">
+                <div class="col-sm-6">
+                    <h2>Project Name: We Can</h2>
+                    <p>Technology I use to devlop this project,</p>
+
+                    <div class="mh-about-tag">
+                        <ul>
+                            <li><span>django</span></li>
+                            <li><span>python</span></li>
+                            <li><span>html</span></li>
+                            <li><span>css</span></li>
+                            <li><span>scss</span></li>
+                            <li><span>javascript</span></li>
+                            <li><span>jquery</span></li>
+                            <li><span>bootstrap</span></li>
+                            <li><span>javascript</span></li>
+                        </ul>
+                    </div>
+                    <a href="https://github.com/vokti77/AmraiPari" target="_blank" class="btn btn-fill">Github</a>
+                </div>
+                <div class="col-sm-6">
+                    <div class="pta-portfolio-modal-img">
+                        <img src="{% static 'assets/images/portfolio/we.jpg' %}" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>

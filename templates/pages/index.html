@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <body class="dark-vertion black-bg">
+        <!-- Start Loader -->
+        <div class="section-loader">
+            <div class="loader">
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <!-- End Loader -->
+
+        <!--
+        ===================
+           NAVIGATION
+        ===================
+        -->
+            {% include 'partials/_navbar.html' %}
+
+        <!--
+        ===================
+            HOME
+        ===================
+        -->
+            {% include 'pages/home.html' %}
+
+        <!--
+        ==================
+            ABOUT
+        =================
+        -->
+            {% include 'pages/about.html' %}
+
+        <!--
+        ===================
+           SERVICE
+        ===================
+        -->
+            {% include 'pages/services.html' %}
+
+        <!--
+        ===================
+           SKILLS
+        ===================
+        -->
+        {% include 'pages/skills.html' %}
+        <!--
+        ===================
+           EDUCATION
+        ===================
+        -->
+            {% include 'pages/education.html' %}
+
+        <!--
+        ===================
+           PORTFOLIO
+        ===================
+        -->
+            {% include 'pages/portfolio.html' %}
+
+{#        <!--#}
+{#        ===================#}
+{#           PRICING#}
+{#        ===================#}
+{#        -->#}
+{#            {% include 'pages/pricing.html' %}#}
+{##}
+{#        <!--#}
+{#        ===================#}
+{#           BLOG#}
+{#        ===================#}
+{#        -->#}
+{#            {% include 'pages/blog.html' %}#}
+
+        <!--
+        ===================
+           FOOTER 1
+        ===================
+        -->
+            {% include 'partials/_footer.html' %}
+    </body>
+{% endblock %}
