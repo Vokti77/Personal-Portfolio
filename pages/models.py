@@ -10,3 +10,6 @@ class Contact(models.Model):
 
     def __str__(self):
         return self.first_name
+
+class Image(models.Model):
+    img = models.ImageField(upload_to='images/')

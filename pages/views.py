@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.contrib import messages
 
-from pages.models import Contact
+from pages.models import Contact, Image
 
 
 def index(request):
@@ -25,3 +25,12 @@ def show(request):
         'info': info
     }
     return render(request, 'pages/show.html', context)
+
+def iamge(request):
+    img = Image.objects.all()
+   
+    context = {
+        'img': img
+    }
+    print(img)
+    return render(request, 'pages/home.html', context)
